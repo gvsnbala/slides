@@ -20,5 +20,11 @@ def main():
     dict_['temperature'] = str(int(dict_['temperature']) - 5)
     print(dict_)
 
+    print('country' in dict_.keys())
+    print(dict_.get('country', 'Россия'))
+    dict_['date'] = '27.05.2019'
+    print(len(dict_))
+
+
 if __name__ == "__main__":
     main()
