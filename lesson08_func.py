@@ -13,17 +13,12 @@
 
 
 def get_summ(one, two, delimiter='&') -> str:
-    return f'{one}{delimiter}{two}'
-
-
-def get_summ2(one, two, delimiter='&') -> str:
-    return f'{one.capitalize()}{delimiter}{two.capitalize()}'
+    return f'{one.upper()}{delimiter}{two.upper()}'
 
 
 def main():
     lp = get_summ('Learn', 'python')
     print(lp)
-    print(get_summ2('Learn', 'python'))
 
 
 if __name__ == "__main__":
