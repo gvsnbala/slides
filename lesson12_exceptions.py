@@ -6,9 +6,20 @@
 
 '''
 
+def hello_user():
+    while True:
+        try:
+
+            value = input('Скажи что-нибудь: ')
+            print(value)
+
+        except KeyboardInterrupt:
+            print('\nПока')
+            break
+
 
 def main():
-    pass
+    hello_user()
 
 
 if __name__ == "__main__":
