@@ -11,8 +11,14 @@
 
 """
 
+
+def get_summ(one, two, delimiter='&') -> str:
+    return f'{one.upper()}{delimiter}{two.upper()}'
+
+
 def main():
-    pass
+    lp = get_summ('Learn', 'python')
+    print(lp)
 
 
 if __name__ == "__main__":
