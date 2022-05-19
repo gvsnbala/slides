@@ -8,7 +8,7 @@
 '''
 
 
-def discounted(price: float, discount: float, max_discount: int =20):
+def discounted(price: float, discount: float, max_discount: int =20) -> float:
 
     try:
 
