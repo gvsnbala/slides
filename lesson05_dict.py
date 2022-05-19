@@ -15,8 +15,10 @@
 
 
 def main():
-    pass
-
+    dict_ = {'city': 'Москва', 'temperature': '20'}
+    print(dict_['city'])
+    dict_['temperature'] = str(int(dict_['temperature']) - 5)
+    print(dict_)
 
 if __name__ == "__main__":
     main()
