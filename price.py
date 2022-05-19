@@ -7,7 +7,7 @@
     * Выведите значение переменной с результатом на экран
 '''
 
-def format_price(price) -> str:
+def format_price(price: float) -> str:
     try:
         value = int(price)
     except ValueError as err:
