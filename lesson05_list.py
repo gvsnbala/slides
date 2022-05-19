@@ -17,8 +17,12 @@ def main():
     lis.append('Python')
     print(len(lis))
 
-    
+    print(lis[0])
+    print(lis[-1])
+    print(lis[1:4])
+    del lis[lis.index('Python')]
+
 
 
 if __name__ == "__main__":
-    pass
+    main()
