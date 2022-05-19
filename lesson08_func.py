@@ -11,6 +11,11 @@
 
 """
 
+
+def get_summ(one, two, delimiter='&') -> str:
+    return f'{one}{delimiter}{two}'
+
+
 def main():
     pass
 
