@@ -12,7 +12,12 @@
 
 
 def main():
-    pass
+    lis = [3, 5, 7, 9, 10.5]
+    print(lis)
+    lis.append('Python')
+    print(len(lis))
+
+    
 
 
 if __name__ == "__main__":
